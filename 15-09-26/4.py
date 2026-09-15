@@ -2,7 +2,7 @@
 
 
 try:
-    arr = list(map(int,input().split()))
+    arr = input()
     occurence = {}
 
     for i in arr:
