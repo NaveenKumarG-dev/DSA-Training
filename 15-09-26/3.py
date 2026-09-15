@@ -3,17 +3,17 @@
 
 try:
     arr = list(map(int,input().split()))
-    seen = {}
+    occurence = {}
 
     for i in arr:
-        if i not in seen.keys():
-            seen[i] = 1
+        if i not in occurence.keys():
+            occurence[i] = 1
             continue
-        seen[i]+=1
+        occurence[i]+=1
 
     print("element | occurence")
-    for i in seen.keys():
-        print(f"{i} | {seen[i]}")
+    for i in occurence.keys():
+        print(f"{i} | {occurence[i]}")
 
 except Exception as e:
     print(e)
