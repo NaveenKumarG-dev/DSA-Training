@@ -22,8 +22,7 @@ elif operator == "/":
     print("Remainder:",n1%n2)
 else:
     print("Invalid")
-
-
+       
 
 # def operation(n1,n2,operator):
 #     if operator == "+":
@@ -50,6 +49,10 @@ else:
 # ans = operation(nums[0],nums[1],operator[0])
 
 # i = 2
-# while i+1<len(nums):
+# op_index = 1
 
-    
+# while i < len(nums):
+#     ans = operation(ans, nums[i], operator[op_index])
+#     i += 1
+#     op_index += 1
+# print(ans)
